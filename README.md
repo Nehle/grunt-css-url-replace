@@ -49,14 +49,14 @@ public
 |   └─── users
 |        └─── default.css
 ├── images
-|   └── baner.png
+|   └── banner.png
 |   └── avatar.png
 ```
 
 #### css/application.css
 ```css
-  .baner{background-image:url("../images/baner.png");}
-  .baner{background-image:url("../images/baner.png#test");}
+  .banner{background-image:url("../images/banner.png");}
+  .banner{background-image:url("../images/banner.png#test");}
   .http { background-image: url("http://somehost.com/image.png"); }
   .https_urls { background-image: url("https://somehost.com/image.png"); }
 ```
@@ -71,8 +71,8 @@ public
 
 #### the generated file dest/build.css is would be:
 ```css
-  .baner{background-image:url("/images/baner.png");}
-  .baner{background-image:url("/images/baner.png#test");}
+  .banner{background-image:url("/images/banner.png");}
+  .banner{background-image:url("/images/banner.png#test");}
   .http { background-image: url("http://somehost.com/image.png"); }
   .https_urls { background-image: url("https://somehost.com/image.png"); }
   .avatar{background-image:url("/images/avatar.png");}
